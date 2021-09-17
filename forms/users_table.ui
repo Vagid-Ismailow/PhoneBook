@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>580</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>580</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>580</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>580</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>80</y>
+     <width>500</width>
+     <height>575</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 10pt;
+text-align: center;
+</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>Имя</string>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Телефон</string>
+    </property>
+    <property name="foreground">
+     <brush brushstyle="NoBrush">
+      <color alpha="255">
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </brush>
+    </property>
+   </column>
+<column>
+    <property name="text">
+     <string>Дата рождения</string>
+    </property>
+   </column>
+  </widget>
+
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>30</y>
+     <width>180</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 12pt;</string>
+   </property>
+   <property name="text">
+    <string>Вы зашли как: </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name_label">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>30</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 12pt;</string>
+   </property>
+   <property name="text">
+    <string>name</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_1">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>120</y>
+     <width>45</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>АБ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>140</y>
+     <width>45</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ВГ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>160</y>
+     <width>45</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ДЕ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>180</y>
+     <width>45</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 8pt;</string>
+   </property>
+   <property name="text">
+    <string>ЖЗИ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>200</y>
+     <width>45</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ЙКЛ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>240</y>
+     <width>45</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ОП</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>220</y>
+     <width>45</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>МН</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_9">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>280</y>
+     <width>45</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ТУ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>260</y>
+     <width>45</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>РСЦ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_11">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>320</y>
+     <width>45</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 7pt;</string>
+   </property>
+   <property name="text">
+    <string>ЧШЩ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_10">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>300</y>
+     <width>45</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ФХ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_12">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>340</y>
+     <width>45</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ЪЫЬ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_13">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>360</y>
+     <width>45</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ЭЮЯ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_14">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>380</y>
+     <width>45</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+   <string>все</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addContactButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>670</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 6px;
+background-color: #CEFF70;
+border: 2px solid  black;
+font-size: 10pt;</string>
+   </property>
+   <property name="text">
+    <string>Добавить новый контакт</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
