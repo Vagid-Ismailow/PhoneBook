@@ -7,8 +7,6 @@ from PyQt5.QtWidgets import QDialog, QApplication, QMessageBox
 from PyQt5.uic import loadUi
 
 from repository import phone_book_repository
-from main_services import *
-
 
 def check_valid_email_address(email):
   #  return bool(re.search(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b', email))
